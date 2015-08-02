@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EduticNow.Views.LoginPage"
+             xmlns:local="clr-namespace:EduticNow.CustomRenders;assembly=EduticNow"
+             BackgroundImage="{StaticResource im_Background}">
+
+  <AbsoluteLayout Style="{StaticResource style_AbsoluteLayout}">
+
+
+    <Label
+      x:Name="_label_IniciarSesion"
+      StyleId="label_IniciarSesion"
+      Style="{StaticResource style_Label_Login}"
+      Text="Iniciar sesión"
+      XAlign="Start"
+      AbsoluteLayout.LayoutBounds="0.5, 0.75, 0.8, 0.2"
+      AbsoluteLayout.LayoutFlags="All"/>
+
+
+    <Image
+      x:Name="_im_BoxEntryUsuario"
+      StyleId="im_BoxEntryUsuario"
+      Source="{StaticResource im_BoxEntry}"
+      Opacity="0.6"
+      AbsoluteLayout.LayoutBounds="0.5, 0.705, 0.8, 0.09"
+      AbsoluteLayout.LayoutFlags="All"/>
+
+    <local:CustomEntry
+      x:Name="_entry_Usuario"
+      StyleId="entry_Usuario"
+      Placeholder="Usuario"
+      TextColor="#E6E6E6"
+      HorizontalOptions="Start"
+      AbsoluteLayout.LayoutBounds="0.5, 0.705, 0.8, 0.09"
+      AbsoluteLayout.LayoutFlags="All"/>
+
+    <Image
+     x:Name="_im_BoxEntryContrasenha"
+     StyleId="im_BoxEntryContrasenha"
+     Source="{StaticResource im_BoxEntry}"
+     Opacity="0.6"
+     AbsoluteLayout.LayoutBounds="0.5, 0.8, 0.8, 0.09"
+     AbsoluteLayout.LayoutFlags="All"/>
+
+    <local:CustomEntry
+      x:Name="_entry_Contrasenha"
+      StyleId="entry_Contrasenha"
+      Placeholder="Contraseña"
+      TextColor="#E6E6E6"
+      IsPassword="True"
+      HorizontalOptions="Start"
+         AbsoluteLayout.LayoutBounds="0.5, 0.8, 0.8, 0.09"
+      AbsoluteLayout.LayoutFlags="All"/>
+
+    <Image
+      x:Name="_im_ButtonLogin2"
+      StyleId="im_ButtonLogin2"
+      Source="{StaticResource im_ButtonLogin2}"
+      AbsoluteLayout.LayoutBounds="0.16, 0.93, 0.4, 0.09"
+      AbsoluteLayout.LayoutFlags="All"/>
+
+
+      <Label 
+        Text="FORGOT PASSWORD?" 
+        TextColor="White" 
+        FontSize="Micro"
+        XAlign="Center"
+        AbsoluteLayout.LayoutBounds="0.87, 0.94, 0.4, 0.09"
+        AbsoluteLayout.LayoutFlags="All"/>
+    
+      <Label 
+        Text="CHANGE" 
+        TextColor="Aqua" 
+        FontSize="Micro"
+        XAlign="Center"
+        AbsoluteLayout.LayoutBounds="0.87, 0.98, 0.4, 0.09"
+        AbsoluteLayout.LayoutFlags="All"/>
+
+
+    
+    
+  </AbsoluteLayout>
+
+</ContentPage>

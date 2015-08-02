@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:EduticNow.CustomRenders;assembly=EduticNow"
+             x:Class="EduticNow.Views.SignUpPage"
+             BackgroundImage="{StaticResource im_Backgroundc}">
+  
+  <AbsoluteLayout Style="{StaticResource style_AbsoluteLayout}">
+
+    <Label
+      x:Name="_label_Registro"
+      StyleId="label_Registro"
+      Style="{StaticResource style_Label_Login}"
+      Text="Registro"
+      XAlign="Start"
+      AbsoluteLayout.LayoutBounds="0.48, 0.5, 0.8, 0.09"
+      AbsoluteLayout.LayoutFlags="All"/>
+
+    <Image
+      x:Name="_im_BoxEntryUsuario1"
+      StyleId="im_BoxEntryUsuario1"
+      Source="{StaticResource im_BoxEntry}"
+      Opacity="0.6"
+      AbsoluteLayout.LayoutBounds="0.5, 0.55, 0.8, 0.09"
+      AbsoluteLayout.LayoutFlags="All"/>
+
+    <local:CustomEntry
+      x:Name="_entry_Usuario"
+      StyleId="entry_Usuario"
+      Placeholder="Nombre de Usuario"
+      TextColor="#E6E6E6"
+      HorizontalOptions="Start"
+      AbsoluteLayout.LayoutBounds="0.5, 0.55, 0.8, 0.09"
+      AbsoluteLayout.LayoutFlags="All"/>
+    
+    <Image
+      x:Name="_im_BoxEntryUsuario2"
+      StyleId="im_BoxEntryUsuario2"
+      Source="{StaticResource im_BoxEntry}"
+      Opacity="0.6"
+      AbsoluteLayout.LayoutBounds="0.5, 0.645, 0.8, 0.09"
+      AbsoluteLayout.LayoutFlags="All"/>
+
+    <local:CustomEntry
+      x:Name="_entry_Correo"
+      StyleId="entry_Correo"
+      Placeholder="Dirección de Correo"
+      TextColor="#E6E6E6"
+      HorizontalOptions="Start"
+      AbsoluteLayout.LayoutBounds="0.5, 0.645, 0.8, 0.09"
+      AbsoluteLayout.LayoutFlags="All"/>
+    
+
+    <Image
+      x:Name="_im_BoxEntryContrasenha"
+      StyleId="im_BoxEntryContrasehna"
+      Source="{StaticResource im_BoxEntry}"
+      Opacity="0.6"
+      AbsoluteLayout.LayoutBounds="0.5, 0.74, 0.8, 0.09"
+      AbsoluteLayout.LayoutFlags="All"/>
+
+    <local:CustomEntry
+      x:Name="_entry_Contrasenha"
+      StyleId="entry_Contrasenha"
+      Placeholder="Contraseña"
+      TextColor="#E6E6E6"
+      IsPassword="True"
+      HorizontalOptions="Start"
+      AbsoluteLayout.LayoutBounds="0.5, 0.74, 0.8, 0.09"
+      AbsoluteLayout.LayoutFlags="All"/>
+
+    <Image
+      x:Name="_im_ButtonCreateAccount"
+      StyleId="im_ButtonCreateAccount"
+      Source="{StaticResource im_ButtonCreateAccount}"
+      AbsoluteLayout.LayoutBounds="0.5, 0.93, 0.8, 0.09"
+      AbsoluteLayout.LayoutFlags="All"/>
+      
+    </AbsoluteLayout>
+</ContentPage>

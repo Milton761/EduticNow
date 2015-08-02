@@ -1,0 +1,22 @@
+﻿<Properties StartupItem="Movies\Movies.Android\Movies.Android.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.9accd557" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Movies\Movies.Android\CustomRenders\CustomEntryRenderer.cs">
+    <Files>
+      <File FileName="Movies\Movies\App.cs" Line="74" Column="74" />
+      <File FileName="Movies\Movies\Pages\Main2Page.cs" Line="1" Column="1" />
+      <File FileName="Movies\Movies\Pages\MainPage.cs" Line="1" Column="1" />
+      <File FileName="Movies\Movies\ViewModels\AboutViewModel.cs" Line="1" Column="1" />
+      <File FileName="Movies\Movies.iOS\AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="Movies\Movies.iOS\Main.cs" Line="1" Column="1" />
+      <File FileName="Movies\Movies.iOS\MvxFormsTouchViewPresenter.cs" Line="1" Column="1" />
+      <File FileName="Movies\Movies\Pages\LoginPage.xaml" Line="7" Column="7" />
+      <File FileName="Movies\Movies.Android\Resources\Resource.Designer.cs" Line="4" Column="4" />
+      <File FileName="Movies\Movies\CustomRenders\CustomEntry.cs" Line="36" Column="36" />
+      <File FileName="Movies\Movies.Android\CustomRenders\CustomEntryRenderer.cs" Line="91" Column="91" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:EduticNow.ViewModels;assembly=EduticNow"
+             x:Class="EduticNow.Views.SignUpCameraPage"
+             
+             BackgroundImage="{StaticResource im_Backgroundb}">
+
+  <AbsoluteLayout Style="{StaticResource style_AbsoluteLayout}">
+
+
+    <Image
+      x:Name="_im_IconCamera"
+      StyleId="im_IconCamera"
+      Source="{StaticResource im_IconCamera}"
+      AbsoluteLayout.LayoutBounds="0.5, 0.19, 0.3, 0.3"
+      AbsoluteLayout.LayoutFlags="All"/>
+
+    <Button
+      Text="Testing"
+      Command="{Binding TakePictureComand}"
+      AbsoluteLayout.LayoutBounds="0.5, 0.19, 0.3, 0.3"
+      AbsoluteLayout.LayoutFlags="All"
+      />
+
+
+    <Label
+      x:Name="_label_SelectCamera"
+      StyleId="label_SelectCamera"
+      Style="{StaticResource style_Label_Login}"
+      Text="CHOOSE A PICTURE AND SELECT A COLOR"
+      XAlign="Center"
+      AbsoluteLayout.LayoutBounds="0.5, 0.53, 0.5, 0.2"
+      AbsoluteLayout.LayoutFlags="All"/>
+    
+    
+    <Image
+      x:Name="_im_IconLoadCamera"
+      StyleId="im_IconLoadCamera"
+      Source="{StaticResource im_IconLoadCamera}"
+      AbsoluteLayout.LayoutBounds="0.15, 0.87, 0.09, 0.1"
+      AbsoluteLayout.LayoutFlags="All"/>
+
+    <Image
+      x:Name="_im_IconLoadPhoto"
+      StyleId="im_IconLoadPhoto"
+      Source="{StaticResource im_IconLoadPhoto}"
+      AbsoluteLayout.LayoutBounds="0.85, 0.87, 0.09, 0.1"
+      AbsoluteLayout.LayoutFlags="All"/>
+    
+  </AbsoluteLayout>
+  
+  
+  
+</ContentPage>

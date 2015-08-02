@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EduticNow.Views.ConnectedLoginPage"
+             BackgroundImage="{StaticResource im_Background}">
+
+  
+  
+  <AbsoluteLayout Style="{StaticResource style_AbsoluteLayout}">
+  
+    <Image 
+      x:Name="_im_ButtonLogin"
+      StyleId="im_ButtonLogin"
+      Source="{StaticResource im_ButtonLogin}" 
+      AbsoluteLayout.LayoutBounds="0.935,0.028,0.34,0.06" 
+      AbsoluteLayout.LayoutFlags="All"/>
+  
+    <Image 
+      x:Name="_im_LogoEdutic"
+      StyleId="im_LogoEdutic"
+      Source="{StaticResource im_LogoEdutic}" 
+      AbsoluteLayout.LayoutBounds="0.5,0.42,0.5,0.1" 
+      AbsoluteLayout.LayoutFlags="All"/>
+
+    <Label
+      HorizontalOptions="Center"
+      XAlign="Center"
+      AbsoluteLayout.LayoutBounds="0.50,0.49,1,0.02"
+      AbsoluteLayout.LayoutFlags="All">
+      
+    <Label.FormattedText>
+        <FormattedString>
+            <FormattedString.Spans>
+                <Span Text="Connect " ForegroundColor="Aqua" />
+                <Span Text="with your classmates" ForegroundColor="White"/>
+            </FormattedString.Spans>
+        </FormattedString>
+    </Label.FormattedText>
+    
+    </Label>
+      
+    
+    <Label 
+      XAlign="Center"
+      AbsoluteLayout.LayoutBounds="0.50,0.535,1,0.02" 
+      AbsoluteLayout.LayoutFlags="All">
+      <Label.FormattedText>
+        <FormattedString>
+            <FormattedString.Spans>
+                <Span Text="Get help " ForegroundColor="Aqua" />
+                <Span Text="on homework" ForegroundColor="White"/>
+            </FormattedString.Spans>
+        </FormattedString>
+      </Label.FormattedText>
+      
+      
+    
+    </Label>
+      
+    <Label
+      XAlign="Center"
+      AbsoluteLayout.LayoutBounds="0.50,0.58,1,0.02" 
+      AbsoluteLayout.LayoutFlags="All">
+      <Label.FormattedText>
+        <FormattedString>
+            <FormattedString.Spans>
+                <Span Text="Get better graces " ForegroundColor="Aqua" />
+                <Span Text="for real" ForegroundColor="White"/>
+            </FormattedString.Spans>
+        </FormattedString>
+     </Label.FormattedText>
+    
+    </Label>
+    
+    <Image 
+      x:Name="_im_CheckBok"
+      StyleId="im_CheckBox"
+      Source="{StaticResource im_CheckBox}" 
+      AbsoluteLayout.LayoutBounds="0.11,0.72,0.07,0.05" 
+      AbsoluteLayout.LayoutFlags="All"/>
+      
+    <Label 
+      FontSize="Micro"
+      AbsoluteLayout.LayoutBounds="0.6,0.71,0.66,0.02" 
+      AbsoluteLayout.LayoutFlags="All">
+      <Label.FormattedText>
+        <FormattedString>
+            <FormattedString.Spans>
+                <Span Text="TO REGISTER, ACCEPT THE  " ForegroundColor="White"/>
+                <Span Text="TERMS OF USE" ForegroundColor="Aqua"/>
+            </FormattedString.Spans>
+        </FormattedString>
+     </Label.FormattedText>
+    
+    </Label>
+    
+    <Image 
+      x:Name="_im_ButtonSignUp"
+      StyleId="im_ButtonSignUp"
+      Opacity="0.6"
+      Source="{StaticResource im_ButtonSignUp}" 
+      AbsoluteLayout.LayoutBounds="0.5,0.82,0.8,0.09" 
+      AbsoluteLayout.LayoutFlags="All"/>
+    
+    <Image 
+      x:Name="_im_ButtonFacebook"
+      StyleId="im_ButtonFacebook"
+      Source="{StaticResource im_ButtonFacebook}" 
+      
+      AbsoluteLayout.LayoutBounds="0.5,0.93,0.8,0.09" 
+      AbsoluteLayout.LayoutFlags="All"/>
+
+  </AbsoluteLayout>
+
+</ContentPage>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EduticNow.App">
+  <Application.Resources>
+    <ResourceDictionary>
+      <x:String x:Key="im_Background">background.png</x:String>
+      <x:String x:Key="im_Backgroundb">bfondo.png</x:String>
+      <x:String x:Key="im_Backgroundc">cfondo.png</x:String>
+      
+      <x:String x:Key="im_Backgroundd">fondo2x.png</x:String>
+      
+      <x:String x:Key="im_LogoEdutic">logo.png</x:String>
+      
+      <x:String x:Key="im_ButtonLogin">login.png</x:String>
+      <x:String x:Key="im_ButtonLogin2">otherlogin.png</x:String>
+      <x:String x:Key="im_ButtonFacebook">signupface.png</x:String>
+      <x:String x:Key="im_ButtonSignUp">signuplisto.png</x:String>
+      <x:String x:Key="im_ButtonCreateAccount">crearcuenta.png</x:String>
+      <x:String x:Key="im_CheckBox">toregister.png</x:String>
+      <x:String x:Key="im_Check">toregistercheck.png</x:String>
+
+      <x:String x:Key="im_IconCamera">camara.png</x:String>
+      <x:String x:Key="im_IconLoadCamera">loadcamara.png</x:String>
+      <x:String x:Key="im_IconLoadPhoto">loadbiblioteca.png</x:String>
+
+      <x:String x:Key="im_IconChat">chat2x.png</x:String>
+      <x:String x:Key="im_IconNotification">notif2x.png</x:String>
+      <x:String x:Key="im_BackgroundLoad">load2x.png</x:String>
+
+      <x:String x:Key="im_BoxEntry">cajatexto.png</x:String>
+
+
+      <x:String x:Key="font_app">HelveticaNeue-Light</x:String>
+
+      <Color x:Key="color_000">Transparent</Color>
+      <Color x:Key="color_001">White</Color>
+      <Color x:Key="color_002">#E6E6E6</Color>
+      <Color x:Key="color_003">#FA5858</Color>
+      <Color x:Key="color_004">#1C1C1C</Color>
+      
+      
+      
+      <Style x:Key="style_AbsoluteLayout" TargetType="AbsoluteLayout">
+        <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+        <Setter Property="VerticalOptions"   Value="FillAndExpand"/>
+      </Style>
+
+      
+      <Style x:Key="style_Label_Login" TargetType="Label">
+        <Setter Property="Font" Value="{StaticResource font_app}"/>
+        <Setter Property="FontSize"   Value="Large"/>
+        <Setter Property="TextColor"  Value="{StaticResource color_001}"/>
+      </Style>
+      
+    </ResourceDictionary>
+
+  </Application.Resources>
+</Application>

@@ -1,0 +1,2 @@
+Edutic Proyects > Views
+Xam.Forms.mvx-master > Functional proyect

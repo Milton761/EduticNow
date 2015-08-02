@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CoolBeans;assembly=CoolBeans"
+             x:Class="CoolBeans.Pages.LoginPage"
+             >
+        
+  <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+
+
+    <Label
+      x:Name="_label_IniciarSesion"
+      StyleId="label_IniciarSesion"
+      
+      Text="Iniciar sesión"
+      XAlign="Start"
+      AbsoluteLayout.LayoutBounds="0.5, 0.75, 0.8, 0.2"
+      AbsoluteLayout.LayoutFlags="All"/>
+
+    <local:CustomEntry
+      x:Name="_entry_Usuario"
+      StyleId="entry_Usuario"
+      Placeholder="Usuario"
+      Text="{Binding Username}"
+      TextColor="#E6E6E6"
+      HorizontalOptions="Start"
+      AbsoluteLayout.LayoutBounds="0.5, 0.705, 0.8, 0.075"
+      AbsoluteLayout.LayoutFlags="All"/>
+
+    
+
+    <local:CustomEntry
+      x:Name="_entry_Contrasenha"
+      StyleId="entry_Contrasenha"
+      Placeholder="Contraseña"
+      Text="{Binding Password}"
+      TextColor="#E6E6E6"
+      IsPassword="True"
+      HorizontalOptions="Start"
+      AbsoluteLayout.LayoutBounds="0.5, 0.8, 0.8, 0.075"
+      AbsoluteLayout.LayoutFlags="All"/>
+
+
+    <Button
+      x:Name="_ButtonLogin"
+      StyleId="ButtonLogin"
+      Text="Login"
+      Command="{Binding LoginCommand}"
+      AbsoluteLayout.LayoutBounds="0.16, 0.93, 0.4, 0.09"
+      AbsoluteLayout.LayoutFlags="All"/>
+
+    <Label
+      Text="FORGOT PASSWORD?"
+      TextColor="White"
+      XAlign="Center"
+      AbsoluteLayout.LayoutBounds="0.87, 0.94, 0.4, 0.09"
+      AbsoluteLayout.LayoutFlags="All"/>
+
+    <Label
+      Text="CHANGE"
+      TextColor="Aqua"
+      XAlign="Center"
+      AbsoluteLayout.LayoutBounds="0.87, 0.98, 0.4, 0.09"
+      AbsoluteLayout.LayoutFlags="All"/>
+
+
+  </AbsoluteLayout>
+</ContentPage>
